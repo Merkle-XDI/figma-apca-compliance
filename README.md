@@ -1,0 +1,1 @@
+A Claude skill for integrating APCA (Advanced Perceptual Contrast Algorithm) directly into the Figma design process — not as a post-design checker, but as a generative design-time tool. It audits color variables, fixes contrast failures, and generates APCA-compliant component variations, all via Figma MCP.
