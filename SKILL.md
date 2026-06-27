@@ -91,7 +91,7 @@ function APCAcontrast(textRGB, bgRGB) {
     Lc = Lc > -SA98G.Lo_clip ? 0 : Lc + SA98G.W_offset;
   }
 
-  return Math.round(Lc * 100) / 100; // Returns signed Lc value
+  return Math.round(Lc * 100); // Returns signed Lc value
 }
 
 // Usage:

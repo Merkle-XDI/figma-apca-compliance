@@ -115,8 +115,8 @@ Replace `YOUR_FIGMA_ACCESS_TOKEN` with your personal access token. Store it in `
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/your-username/figma-apca-accessibility.git
-cd figma-apca-accessibility
+git clone https://github.com/Merkle-XDI/apca-compliance-figma.git
+cd apca-compliance-figma
 ```
 
 2. **Store your Figma access token**
@@ -132,7 +132,7 @@ FIGMA_ACCESS_TOKEN=your_token_here
 Place the `SKILL.md` file in your Claude skills directory:
 
 ```
-/mnt/skills/public/figma-apca-accessibility/SKILL.md
+/mnt/skills/public/apca-compliance-figma/SKILL.md
 ```
 
 ---
