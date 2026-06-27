@@ -1,3 +1,8 @@
+---
+name: apca-compliance-figma
+description: Integrate APCA (Advanced Perceptual Contrast Algorithm) into the Figma design process as a design-time tool — audit and remap a component's color variables to be APCA-compliant for a target Lc level, and generate APCA-compliant component variations from Lc targets and use-case context. Use for accessible color/contrast work in Figma beyond WCAG ratios.
+---
+
 # apca-compliance-figma
 
 ## What This Skill Does
@@ -86,7 +91,7 @@ function APCAcontrast(textRGB, bgRGB) {
     Lc = Lc > -SA98G.Lo_clip ? 0 : Lc + SA98G.W_offset;
   }
 
-  return Math.round(Lc * 100) / 100; // Returns signed Lc value
+  return Math.round(Lc * 100); // Returns signed Lc value
 }
 
 // Usage:

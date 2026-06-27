@@ -1,0 +1,22 @@
+{
+  "name": "apca-compliance-figma",
+  "version": "1.0.0",
+  "description": "Integrate APCA (Advanced Perceptual Contrast Algorithm) into the Figma design process as a design-time tool — audit and remap color variables, and generate compliant component variations.",
+  "scripts": {
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "apca",
+    "figma",
+    "accessibility",
+    "wcag3",
+    "contrast",
+    "color-contrast",
+    "design-tokens"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "apca-w3": "^0.0.98g-4g"
+  }
+}
